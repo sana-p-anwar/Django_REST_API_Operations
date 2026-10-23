@@ -1,0 +1,69 @@
+###
+GET http://127.0.0.1:8000/greetings/
+Accept: application/json
+
+###
+POST http://127.0.0.1:8000/addition/
+Content-Type: application/json
+
+{
+    "num1":10,
+    "num2":20
+}
+
+###
+POST http://127.0.0.1:8000/subtraction/
+Content-Type: application/json
+
+{
+    "num1":10,
+    "num2":20
+}
+
+
+###
+POST http://127.0.0.1:8000/multiplication/
+Content-Type: application/json
+
+{
+    "num1":10,
+    "num2":20
+}
+
+
+###
+POST http://127.0.0.1:8000/largest/
+Content-Type: application/json
+
+{
+    "num1": 10,
+    "num2": 25,
+    "num3": 15
+}
+
+
+###
+POST http://127.0.0.1:8000/celsius/
+Content-Type: application/json
+
+{
+    "celsius": 25
+   
+}
+
+###
+POST http://127.0.0.1:8000/reverse/
+Content-Type: application/json
+
+{
+    "text": "python"
+}
+
+
+###
+POST http://127.0.0.1:8000/vowels/
+Content-Type: application/json
+
+{
+    "text": "python"
+}
